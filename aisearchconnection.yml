@@ -1,0 +1,8 @@
+name: mmai-hub04-fvye-connection-AISearch
+type: azure_ai_search
+endpoint: https://mmai-hub04-ai-search-fvye.search.windows.net/
+is_shared: true
+metadata:
+  ApiType: Azure
+  ResourceId: /subscriptions/eca2eddb-0f0c-4351-a634-52751499eeea/resourceGroups/mmai04-rg/providers/Microsoft.Search/searchServices/mmai-hub04-fvye-connection-AISearch
+  type: azure_ai_search
