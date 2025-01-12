@@ -1,0 +1,6 @@
+e:\Users\mauromi\source\git_repos\aaas\csconsoleagent\obj\Debug\net8.0\csconsoleagent.csproj.AssemblyReference.cache
+e:\Users\mauromi\source\git_repos\aaas\csconsoleagent\obj\Debug\net8.0\csconsoleagent.GeneratedMSBuildEditorConfig.editorconfig
+e:\Users\mauromi\source\git_repos\aaas\csconsoleagent\obj\Debug\net8.0\csconsoleagent.AssemblyInfoInputs.cache
+e:\Users\mauromi\source\git_repos\aaas\csconsoleagent\obj\Debug\net8.0\csconsoleagent.AssemblyInfo.cs
+e:\Users\mauromi\source\git_repos\aaas\csconsoleagent\obj\Debug\net8.0\csconsoleagent.csproj.CoreCompileInputs.cache
+e:\Users\mauromi\source\git_repos\aaas\csconsoleagent\obj\Debug\net8.0\csconsoleagent.sourcelink.json
