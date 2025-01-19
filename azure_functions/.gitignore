@@ -1,8 +1,3 @@
-.vscode/settings.json
-credentials_my.env
-
-## added by azure functions configuration
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
