@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("csconsoleagent")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffd4362d8c9a19481a89a85eab1beeb0424ef240")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1538cdb9956bd358cfb672fc0c5cfc07916f2529")]
 [assembly: System.Reflection.AssemblyProductAttribute("csconsoleagent")]
 [assembly: System.Reflection.AssemblyTitleAttribute("csconsoleagent")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
