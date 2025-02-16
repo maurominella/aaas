@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "dotnet",
+			"task": "build e:\\Users\\mauromi\\source\\git_repos\\aaas\\FoundryAgents06 - AI Foundry Agent with BingGroundingTool\\SK 07 - AI Foundry Agent with Bing Search.csproj",
+			"file": "e:\\Users\\mauromi\\source\\git_repos\\aaas\\FoundryAgents06 - AI Foundry Agent with BingGroundingTool\\SK 07 - AI Foundry Agent with Bing Search.csproj",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "dotnet: build e:\\Users\\mauromi\\source\\git_repos\\aaas\\FoundryAgents06 - AI Foundry Agent with BingGroundingTool\\SK 07 - AI Foundry Agent with Bing Search.csproj"
+		}
+	]
+}
