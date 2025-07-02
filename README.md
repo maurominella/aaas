@@ -20,30 +20,29 @@ This file `./config/credentials_my.env` will have to be updated with your own cr
 ## 6. ***CD*** into the `aaas` folder
 ```cd aaas```
 
-## 5. Install Miniconda from its [WEB site](https://www.anaconda.com/docs/getting-started/miniconda/install), choosing your operating system
+## 7. Install Miniconda from its [WEB site](https://www.anaconda.com/docs/getting-started/miniconda/install), choosing your operating system
 
-## 6. Open Miniconda bash / prompt, or make sure that conda executable is in the path
+## 8. Open Miniconda bash / prompt, or make sure that conda executable is in the path
 
-## 7. Environment provisioning for Azure AI Agent Service (`aaas`)
+## 9. Environment provisioning for Azure AI Agent Service (`aaas`)
 
-### 7.1 Remove the pre-existing conda `aaas` environment (if exists)
+### 9.1 Remove the pre-existing conda `aaas` environment (if exists)
 ```conda env remove -n aaas -y```
 
-### 7.2 Create new Conda Environment `aaas` with Python 3.13
+### 9.2 Create new Conda Environment `aaas` with Python 3.13
 ```conda create -n aaas python=3.13 -y```
 
-### 7.3 Activate the `aaas` environment
+### 9.3 Activate the `aaas` environment
 ```conda activate aaas```
 
-### 7.4 Install libraries and dependencies
+### 9.4 Install libraries and dependencies
 ```pip install -r requirements_aaas.txt```
 
-### 7.5 Remove the kernel (if exists)
+### 9.5 Remove `aaas` kernel (if exists)
 ```jupyter kernelspec uninstall aaas -y```
 
-### 7.6 Create the kernel 
+### 9.6 Create `aaas` kernel 
 ```python -m ipykernel install --name azuremlsdkv2mm --user```
 
-### 7.7 Check kernels list
+### 9.7 Check kernels list to make sure that `aaas` exists
 ```jupyter kernelspec list```
-
