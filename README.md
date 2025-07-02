@@ -12,8 +12,7 @@ If you do not have one, you may create a folder called `git_repos`
 
 ## 5. Create a sub-folder of the base `git_repos` called `config`
 Don't move into this folder, just copy the file `credentials_my.env` into it:
-- Linux/MAC: ```cp ./aaas/credentials_my(template).env ./config```
-- Windows: ```copy ./aaas/credentials_my(template).env ./config```
+```cp "./aaas/credentials_my(template).env" ./config```
 
 The file `./config/credentials_my.env` (without the final `(template)` in the name) will have to be updated with your own credentials, to be shared among all repositories.
 
