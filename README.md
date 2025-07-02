@@ -1,5 +1,5 @@
 # Mauro Minella repository for storing samples about<br/>
-# `Azure AI Agent Service`  technologies.
+# `Azure AI Agent Service`  technologies
 
 ## Environment preparation
 
