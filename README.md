@@ -13,7 +13,7 @@
 ```conda create -n aaas python=3.13 -y```
 
 ### 3.3 Activate the `aaas` environment
-```conda activatye aaas```
+```conda activate aaas```
 
 ### 3.4 Install libraries and dependencies
 ```pip install -r requirements_aaas.txt```
