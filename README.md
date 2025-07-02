@@ -17,7 +17,7 @@ Don't move into this folder, just copy the file `credentials_my.env` into it:
 
 This file `./config/credentials_my.env` will have to be updated with your own credentials, shared among all repositories and without being synched to GitHub
 
-## 6. ***CD*** into the `aaas` folder
+## 6. ***CD*** into `aaas` folder
 ```cd aaas```
 
 ## 7. Install Miniconda from its [WEB site](https://www.anaconda.com/docs/getting-started/miniconda/install), choosing your operating system
@@ -42,7 +42,7 @@ This file `./config/credentials_my.env` will have to be updated with your own cr
 ```jupyter kernelspec uninstall aaas -y```
 
 ### 9.6 Create `aaas` kernel 
-```python -m ipykernel install --name azuremlsdkv2mm --user```
+```python -m ipykernel install --name aaas --user```
 
 ### 9.7 Check kernels list to make sure that `aaas` exists
 ```jupyter kernelspec list```
