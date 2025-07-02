@@ -46,5 +46,5 @@ The file `./config/credentials_my.env` -without the final `(template)` in the na
 #### 9.6 Create `aaas` kernel 
 ```python -m ipykernel install --name aaas --user```
 
-### 9.7 Check kernels list to make sure that `aaas` exists
+#### 9.7 Check kernels list to make sure that `aaas` exists
 ```jupyter kernelspec list```
