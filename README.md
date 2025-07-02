@@ -8,7 +8,8 @@
 If you do not have one, you may create a folder called `git_repos`
 
 ## 4. Use `git` to clone this repo locally, then ***CD*** into that folder
-```git clone https://github.com/maurominella/aaas.git
+```
+git clone https://github.com/maurominella/aaas.git
 cd aaas
 ```
 
