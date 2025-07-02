@@ -1,0 +1,10 @@
+azure-identity
+azure-ai-projects
+azure-ai-agents
+azure-ai-ml
+matplotlib
+python-dotenv
+openai
+jsonref
+pillow
+jupyter

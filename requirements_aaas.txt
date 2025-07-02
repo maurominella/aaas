@@ -1,9 +1,10 @@
 azure-identity==1.23.0
 azure-ai-projects==1.0.0b12
+azure-ai-agents==1.0.2
 azure-ai-ml==1.27.1
 matplotlib==3.10.3
 python-dotenv==1.1.1
 openai==1.93.0
-jsonref
-pillow
+jsonref==1.1.0
+pillow==11.3.0
 jupyter==1.1.1
