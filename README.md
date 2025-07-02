@@ -15,7 +15,7 @@ Don't move into this folder, just copy the file `credentials_my.env` into it:
 - Linux/MAC: ```cp ./aaas/credentials_my.env ./config```
 - Windows: ```copy ./aaas/credentials_my.env ./config```
 
-This file will have to be updated with your own credentials
+This file `./config/credentials_my.env` will have to be updated with your own credentials, shared among all repositories and without being synched to GitHub
 
 ## 6. ***CD*** into the `aaas` folder
 ```cd aaas```
