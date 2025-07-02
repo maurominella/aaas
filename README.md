@@ -14,7 +14,7 @@ If you do not have one, you may create a folder called `git_repos`
 **Before** moving into this folder, just copy the file `credentials_my(template).env` of the cloned repo into it:
 ```cp "./aaas/credentials_my(template).env" ./config```
 
-The file `./config/credentials_my.env` (without the final `(template)` in the name) will have to be updated with your own credentials, to be shared among all repositories.
+The file `./config/credentials_my.env` -without the final `(template)` in the name- will have to be updated with your own credentials in order to be shared among all repositories.
 
 ## 6. ***CD*** into `aaas` folder
 ```cd aaas```
