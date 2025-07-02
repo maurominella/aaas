@@ -1,3 +1,6 @@
+# Mauro Minella repository for storing samples about<br/>
+`Azure AI Agent Service`  technologies.
+
 # Environment preparation
 
 ## 1. Install Git from its [WEB site](https://git-scm.com/downloads), choosing your operating system
@@ -10,9 +13,9 @@ If you do not have one, you may create a folder called `git_repos`
 ## 4. Use `git` to clone this repo locally
 ```git clone https://github.com/maurominella/aaas.git```
 
-## 5. Create a sub-folder of the base `git_repos` called `config`
+## 5. Create a sub-folder of the base `git_repos` called `config` if it does not exist yet
 **Before** moving into this folder, just copy the file `credentials_my(template).env` of the cloned repo into it:
-```cp "./aaas/credentials_my(template).env" ./config```
+- ```cp "./openai/credentials_my(template).env" ./config```
 
 The file `./config/credentials_my.env` -without the final `(template)` in the name- will have to be updated with your own credentials in order to be shared among all repositories.
 
