@@ -7,8 +7,10 @@
 ## 3. ***CD*** into the base folder for your git repositories
 If you do not have one, you may create a folder called `git_repos`
 
-## 4. Use `git` to clone this repo locally
-```git clone https://github.com/maurominella/aaas.git```
+## 4. Use `git` to clone this repo locally, then ***CD*** into that folder
+```git clone https://github.com/maurominella/aaas.git
+cd aaas
+```
 
 ## 5. Install Miniconda from its [WEB site](https://www.anaconda.com/docs/getting-started/miniconda/install), choosing your operating system
 
