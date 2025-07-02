@@ -16,7 +16,7 @@ If you do not have one, you may create a folder called `git_repos`
 
 The file `./config/credentials_my.env` -without the final `(template)` in the name- will have to be updated with your own credentials in order to be shared among all repositories.
 
-## 6. ***CD*** into `aaas` folder
+## 6. ***CD*** into `aaas` folder of the cloned repository
 ```cd aaas```
 
 ## 7. Install Miniconda from its [WEB site](https://www.anaconda.com/docs/getting-started/miniconda/install), choosing your operating system
