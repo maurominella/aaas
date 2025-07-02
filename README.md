@@ -11,7 +11,7 @@ If you do not have one, you may create a folder called `git_repos`
 ```git clone https://github.com/maurominella/aaas.git```
 
 ## 5. Create a sub-folder of the base `git_repos` called `config`
-Don't move into this folder, just copy the file `credentials_my.env` into it:
+**Before** moving into this folder, just copy the file `credentials_my(template).env` of the cloned repo into it:
 ```cp "./aaas/credentials_my(template).env" ./config```
 
 The file `./config/credentials_my.env` (without the final `(template)` in the name) will have to be updated with your own credentials, to be shared among all repositories.
