@@ -55,7 +55,7 @@ namespace agents_function_app01
             string resultMessage = $"Temperature is {temperature} Celsius degrees and it is sunny in {input.Location}";
 
             // Create response object
-            var response = new WeatherResponse
+            WeatherResponse response = new()
             {
                 Result = resultMessage,
                 CorrelationId = input.CorrelationId
