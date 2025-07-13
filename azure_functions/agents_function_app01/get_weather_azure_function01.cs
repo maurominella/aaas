@@ -20,7 +20,7 @@ namespace agents_function_app01
 
         public class WeatherResponse
         {
-            public string Result { get; set; }
+            public string Value { get; set; }
             public string CorrelationId { get; set; }
         }
         public get_weather_azure_function01()
@@ -57,7 +57,7 @@ namespace agents_function_app01
             // Create response object
             WeatherResponse response = new()
             {
-                Result = resultMessage,
+                Value = resultMessage,
                 CorrelationId = input.CorrelationId
             };
 
@@ -70,11 +70,11 @@ namespace agents_function_app01
             [Queue("azure-function-foo-output", Connection = "AzureWebJobsStorage")] out string OutputQueueItem)
         {
 
-            log.LogInformation($"C# Queue trigger function processed: {InputQueueItem.ToUpper()}");
+            log.LogInformation($"C# Queue trigger function processed: {InputQueueItem.ToUpper()}!");
 
             var weatherResponse = GenerateWeatherResponse(InputQueueItem);
 
-            log.LogInformation($"Result: {weatherResponse.Result}");
+            log.LogInformation($"Result: {weatherResponse.Value}");
 
             // Serialize response object to JSON
             OutputQueueItem = JsonSerializer.Serialize(weatherResponse);
