@@ -5,13 +5,9 @@ using Microsoft.Extensions.Hosting;
 
 var builder = FunctionsApplication.CreateBuilder(args);
 
-builder.EnableMcpToolMetadata();
-
-builder
-    .ConfigureMcpTool("get_weather_azure_function01_mcp")
-    .WithProperty("Location", "string", "The location to check the weather for.");
-
 builder.ConfigureFunctionsWebApplication();
+
+builder.EnableMcpToolMetadata();
 
 builder.Services
     .AddApplicationInsightsTelemetryWorkerService()
