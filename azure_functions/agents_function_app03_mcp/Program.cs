@@ -7,7 +7,8 @@ var builder = FunctionsApplication.CreateBuilder(args);
 
 builder.ConfigureFunctionsWebApplication();
 
-builder.EnableMcpToolMetadata();
+// the next call must be below the ConfigureFunctionsWebApplication()
+builder.EnableMcpToolMetadata(); 
 
 builder.Services
     .AddApplicationInsightsTelemetryWorkerService()
