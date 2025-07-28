@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "agents_function_app03_mcp": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7067",
+      "launchBrowser": false
+    }
+  }
+}
