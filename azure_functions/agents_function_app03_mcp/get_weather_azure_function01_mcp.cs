@@ -7,11 +7,11 @@ using Microsoft.Extensions.Logging;
 
 namespace agents_function_app03_mcp;
 
-public class get_weather_azure_function01_mcp
+public class get_weather_azure_function_mcp
 {
-    private readonly ILogger<get_weather_azure_function01_mcp> _logger;
+    private readonly ILogger<get_weather_azure_function_mcp> _logger;
 
-    public get_weather_azure_function01_mcp(ILogger<get_weather_azure_function01_mcp> logger)
+    public get_weather_azure_function_mcp(ILogger<get_weather_azure_function_mcp> logger)
     {
         _logger = logger;
     }
@@ -25,9 +25,9 @@ public class get_weather_azure_function01_mcp
         return response;
     }
 
-    [Function(nameof(get_weather_azure_function01_mcp))]
+    [Function(nameof(get_weather_azure_function_mcp))]
     public string Run(
-        [McpToolTrigger("get_weather_azure_function01_mcp", "Gets the weather for a specific location.")] ToolInvocationContext context,
+        [McpToolTrigger("get_weather_mcp", "Gets the weather for a specific location.")] ToolInvocationContext context,
         [McpToolProperty("Location", "string", "The location to check the weather for.")] string Location
         )
     {
