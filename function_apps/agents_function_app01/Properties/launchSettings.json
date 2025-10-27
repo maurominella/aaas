@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "agents_function_app01": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7059",
+      "launchBrowser": false
+    }
+  }
+}
