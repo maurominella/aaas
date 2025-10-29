@@ -44,7 +44,7 @@ public class get_weather_azure_function01
 
         // Calculate temperature based on location name length
         int temperature = input.Location.Length;
-        string resultMessage = $"Temperature is {temperature} Celsius degrees and it is sunny in {input.Location}";
+        string resultMessage = $"Temperature is {temperature*2} Fahrenheit degrees and it is sunny in {input.Location}";
 
         // Create response object
         WeatherResponse response = new()
